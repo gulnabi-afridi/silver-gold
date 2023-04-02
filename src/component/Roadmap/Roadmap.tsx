@@ -16,12 +16,12 @@ function Roadmap() {
           {/* text */}
           <p className={styles.text2}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s
           </p>
           <p className={styles.text2}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s
           </p>
           <button className={styles.freeGold}>
@@ -58,9 +58,9 @@ function Roadmap() {
             You will find a List of Everything We Offer Bellow
           </p>
           <p className={styles.weOfferText}>
-            However if you are intrested in something that you do not see
-            listed let us know and we can try get it for you. <br /> To get
-            started just pick up the phone and call Toll-Free 1-800-604-0240.{" "}
+            However if you are intrested in something that you do not see listed
+            let us know and we can try get it for you. <br /> To get started
+            just pick up the phone and call Toll-Free 1-800-604-0240.{" "}
           </p>
         </div>
       </div>
@@ -81,13 +81,13 @@ const roadmapData = [
     number: "2",
     img: "/Assets/coin.png",
     title: "Open Your Account",
-    text: "  Motivation also involves factors that direct and maintaingoal-directed actions. Although, such motives are rarelydirectly observable. As a result we must often infer the reasons why people do the things that they do based on observable behaviors ",
+    text: "  Motivation also involves factors that direct and maintaingoal-directed actions. Although such motives are rarelydirectly observable. As a result we must often infer the reasons why people do the things that they do based on observable behaviors ",
   },
   {
     number: "3",
     img: "/Assets/box.png",
     title: "Choce precious metal",
-    text: "  Motivation also involves factors that direct and maintaingoal-directed actions. Although, such motives are rarelydirectly observable. As a result we must often infer the reasons why people do the things that they do based on observable behaviors ",
+    text: "  Motivation also involves factors that direct and maintaingoal-directed actions. Although such motives are rarelydirectly observable. As a result we must often infer the reasons why people do the things that they do based on observable behaviors ",
   },
 ];
 
