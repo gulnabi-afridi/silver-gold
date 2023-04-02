@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Roadmap.module.css";
 import Image from "next/image";
-import { Data } from "../../../Data/data";
+import {Data} from "../../../Data/data";
 
 function Roadmap() {
   return (

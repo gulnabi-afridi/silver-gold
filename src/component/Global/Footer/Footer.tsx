@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { RxDividerVertical } from "react-icons/rx";
-import {Data} from "../../../../Data/data";
+import { Data } from "../../../../Data/data";
 
 function Footer() {
   return (
