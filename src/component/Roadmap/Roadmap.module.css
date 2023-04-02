@@ -1,0 +1,207 @@
+.roadmapMain {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #faf3e1;
+}
+.roadmap {
+  max-width: 1350px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  gap: 40px;
+  padding: 40px 10px;
+}
+.leftPortion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.number {
+  font-size: 130px;
+  font-weight: 700;
+  font-family: "Adelle-Bold";
+  color: #001645;
+}
+.text {
+  font-family: "Adelle-semibold";
+  font-size: 30px;
+  color: #004169;
+}
+.text2 {
+  font-family: "Microsoft-new";
+  font-size: 20px;
+  line-height: 25px;
+}
+.freeGold {
+  font-family: "Adelle-Bold";
+  width: 210px;
+  background-color: #001645;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 4px 0px;
+  color: white;
+  border: 0px;
+}
+.rightPortion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.portion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.firstPortion {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.firstPortion:nth-child(1) {
+  font-size: 70px;
+  font-family: "Adelle-Bold";
+  color: #001645;
+  
+}
+.secPortion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.secPortionIst {
+  font-size: 40px;
+  font-family: "Adelle-semibold";
+  color: #004169;
+  margin-bottom: -6px;
+}
+.secPortionText {
+  font-family: "Microsoft-new";
+  font-size: 20px;
+}
+.weOffer {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weOfferTitle {
+  font-size: 40px;
+  font-family: "Adelle-semibold";
+  color: #004169;
+  margin-bottom: -2px;
+}
+.weOfferText {
+  font-family: "Microsoft-new";
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+.shape {
+  width: 100%;
+  height: 170px;
+  margin-top: -100px;
+  background-color: #004169;
+  -webkit-clip-path: polygon(100% 100%, 0 100%, 0 41%, 46% 53%, 100% 38%);
+  clip-path: polygon(100% 100%, 0 100%, 0 21%, 46% 53%, 100% 18%);
+}
+/* =====> media queries */
+@media screen and (max-width: 1120px) {
+  .roadmap {
+    grid-template-columns: 1fr;
+  }
+  .number {
+    font-size: 80px;
+  }
+  .secPortionIst {
+    font-size: 30px;
+  }
+  .firstPortion:nth-child(1) {
+    font-size: 60px;
+    font-family: "Adelle-Bold";
+  }
+  .freeGold {
+    font-size: 14px;
+  }
+  .leftPortion {
+    justify-content: center;
+    align-items: center;
+  }
+  .weOfferTitle{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .roadmap {
+    gap: 20px;
+  }
+  .number {
+    font-size: 60px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .text2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .secPortionIst {
+    font-size: 22px;
+  }
+  .firstPortion:nth-child(1) {
+    font-size: 50px;
+    font-family: "Adelle-Bold";
+  }
+  .freeGold {
+    font-size: 12px;
+    padding: 6px 0px;
+  }
+  .leftPortion {
+    justify-content: center;
+    align-items: center;
+  }
+  .portion {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .secPortionIst {
+    font-size: 20px;
+  }
+  .secPortion {
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  .secPortionText {
+    text-align: center;
+    font-size: 18px;
+  }
+  .weOfferTitle{
+    font-size: 22px;
+    text-align: center;
+  }
+  .weOfferText{
+    font-size: 18px;
+    line-height: 26px
+  }
+  .shape{
+    height: 140px;
+  }
+}
