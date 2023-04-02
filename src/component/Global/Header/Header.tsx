@@ -8,7 +8,6 @@ import { Spin as Hamburger } from "hamburger-react";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { RxCross2 } from "react-icons/rx";
-import {Data} from "../../../../Data/data";
 
 
 function Header() {
@@ -42,7 +41,7 @@ function Header() {
           </div>
           {/* =======>  */}
           <div className={styles.navLink}>
-            {Data.navLinks.map((nav: any, index: number) => {
+            {navLinks.map((nav: any, index: number) => {
               return (
                 <Link key={index} className={styles.link} href={nav.path}>
                   {nav.name}
@@ -91,7 +90,7 @@ function Header() {
               </div>
               {/* =====> links */}
               <div className={`${styles.navLink} ${styles.mobNavLink}`}>
-                {Data.navLinks.map((nav: any, index: number) => {
+                {navLinks.map((nav: any, index: number) => {
                   return (
                     <Link
                       key={index}
@@ -112,5 +111,30 @@ function Header() {
 }
 
 
-
+const navLinks = [
+  {
+    name: "Gold & silver ira",
+    path: "#",
+  },
+  {
+    name: "buy gold and silver",
+    path: "#",
+  },
+  {
+    name: "news and resources",
+    path: "#",
+  },
+  {
+    name: "about",
+    path: "#",
+  },
+  {
+    name: "reviews",
+    path: "#",
+  },
+  {
+    name: "contact us",
+    path: "#",
+  },
+]
 export default Header;

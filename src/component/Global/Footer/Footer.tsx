@@ -3,7 +3,6 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { RxDividerVertical } from "react-icons/rx";
-import { Data } from "../../../../Data/data";
 
 function Footer() {
   return (
@@ -22,7 +21,7 @@ function Footer() {
           </div>
           {/* ====> links */}
           <div className={styles.navLink}>
-            {Data.navLinks.map((nav: any, index: number) => {
+            {navLinks.map((nav: any, index: number) => {
               return (
                 <Link key={index} className={styles.link} href={nav.path}>
                   {nav.name}
@@ -37,7 +36,7 @@ function Footer() {
           <div className={styles.llcAndLinks}>
             <p className={styles.llc}>@2008-2023 gold gate capital, llc</p>
             <div className={styles.bottmPLinks}>
-              {Data.footerNaviLink.map((nav, index) => {
+              {footerNaviLink.map((nav, index) => {
                 return (
                   <div key={index} className={styles.linkMain}>
                     <Link className={styles.link} href="#">
@@ -68,8 +67,7 @@ function Footer() {
   );
 }
 
-
-const footerNaviLink = [
+const footerNaviLink =  [
   {
     name: "privacy policy",
     path: "#",
@@ -86,5 +84,31 @@ const footerNaviLink = [
     name: "transaction agreement",
     path: "#",
   },
-];
+]
+const navLinks =  [
+  {
+    name: "Gold & silver ira",
+    path: "#",
+  },
+  {
+    name: "buy gold and silver",
+    path: "#",
+  },
+  {
+    name: "news and resources",
+    path: "#",
+  },
+  {
+    name: "about",
+    path: "#",
+  },
+  {
+    name: "reviews",
+    path: "#",
+  },
+  {
+    name: "contact us",
+    path: "#",
+  },
+]
 export default Footer;
