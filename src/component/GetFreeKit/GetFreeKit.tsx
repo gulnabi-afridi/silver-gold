@@ -9,7 +9,11 @@ function GetFreeKit() {
         {/* ===> left portion */}
         <div className={styles.leftPortion}>
           <p className={styles.title}>
-            Learn How <br/> Precious Metals<br/> Can Protect Your Wealth
+            Learn How <br /> Precious Metals
+            <br /> Can Protect Your Wealth
+          </p>
+          <p className={styles.titleSmScreen}>
+            Learn How Precious Metals Can Protect Your Wealth
           </p>
           <button className={styles.button}>
             Get Your <span className={styles.boldBtn}>Free</span> Kit

@@ -17,7 +17,7 @@ export default function Home() {
         <HeroSection/>
         <Roadmap/>
         <Contact/>
-        {/* <GetFreeKit/> */}
+        <GetFreeKit/>
       </main>
     </>
   );

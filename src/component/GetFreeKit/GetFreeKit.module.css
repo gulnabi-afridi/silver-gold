@@ -10,7 +10,7 @@
   justify-content: center;
   margin: auto;
   align-items: center;
-  padding: 20px 0px;
+  padding: 20px 10px;
 }
 .leftPortion {
   width: 100%;
@@ -42,4 +42,78 @@
   width: 100%;
   position: relative;
   height: 450px;
+}
+.titleSmScreen {
+  display: none;
+}
+/* =====> media queries */
+@media screen and (max-width: 1120px) {
+  .title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .button {
+    font-size: 26px;
+    line-height: 20px;
+  }
+  .boldBtn {
+    font-size: 30px;
+  }
+  .rightPortion {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .button {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .boldBtn {
+    font-size: 24px;
+  }
+  .rightPortion {
+    height: 240px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .freeKit {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .titleSmScreen {
+    display: flex;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: "Adelle-semibold";
+    color: white;
+  }
+  .button {
+    width: 210px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 50px;
+  }
+  .leftPortion {
+    align-items: center;
+  }
+  .title {
+    display: none;
+  }
+
+  .boldBtn {
+    font-size: 16px;
+  }
+  .rightPortion {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 430px) {
+
+  .rightPortion {
+    height: 220px;
+  }
 }
