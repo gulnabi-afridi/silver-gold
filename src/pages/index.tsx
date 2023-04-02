@@ -1,8 +1,8 @@
 import Head from "next/head";
 import HeroSection from "@/component/HeroSection/HeroSection";
 import Roadmap from "@/component/Roadmap/Roadmap";
-import Contact from "@/component/Contact/Contact";
 import GetFreeKit from "@/component/GetFreeKit/GetFreeKit";
+import Contact from "@/component/Contact/Contact";
 
 export default function Home() {
   return (
@@ -14,10 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <HeroSection/>
-        <Roadmap/>
+        <HeroSection />
+        <Roadmap />
         <Contact/>
-        <GetFreeKit/>
+        <GetFreeKit />
       </main>
     </>
   );
