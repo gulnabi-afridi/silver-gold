@@ -139,9 +139,11 @@
   .leftMainPortion {
     justify-content: center;
     padding: 30 0px;
+    align-items: center;
   }
   .leftPortion {
-    max-width: unset;
+    max-width: unset;;
+    align-self: center;
     width: 100%;
   }
   .contact {
@@ -151,17 +153,15 @@
     width: 200px;
     height: 250px;
   }
-  .text {
-    width: 80%;
-  }
+
   .rightPortion {
     width: 100%;
-    justify-content: center;
-    align-items: center;
+     max-width: unset;
     padding: 30px 10px;
   }
   .rightPTitle {
     font-size: 30px;
+    text-align: center;
   }
 }
 
@@ -172,6 +172,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .rightMainSection {
+    padding: 0px 16px;
+  }
   .title {
     font-size: 30px;
   }
