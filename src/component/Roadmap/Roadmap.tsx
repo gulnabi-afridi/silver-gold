@@ -70,7 +70,6 @@ function Roadmap() {
   );
 }
 
-
 const roadmapData = [
   {
     number: "1",
@@ -90,7 +89,6 @@ const roadmapData = [
     title: "Choce precious metal",
     text: "  Motivation also involves factors that direct and maintaingoal-directed actions. Although such motives are rarelydirectly observable. As a result we must often infer the reasons why people do the things that they do based on observable behaviors ",
   },
-]
-
+];
 
 export default Roadmap;

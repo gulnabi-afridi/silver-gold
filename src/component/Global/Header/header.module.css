@@ -2,6 +2,7 @@
   width: 100vw;
   background-color: #004169;
   height: 100px;
+  overflow: hidden;
 }
 .header {
   max-width: 1350px;
